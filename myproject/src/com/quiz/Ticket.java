@@ -2,11 +2,14 @@ package com.quiz;
 
 public class Ticket {
 	protected int num;
-	private String combo;
+	private String type;
 	
-	public Ticket(int num, String combo) {
+	public Ticket(int num, String type) {
 		this.num = num;
-		this.combo = combo;
+		this.type = type;
 	}
 	
+	public void show(){
+		System.out.print("number" + num + "\t" + type);
+	}
 }
