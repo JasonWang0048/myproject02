@@ -26,6 +26,7 @@ public class Grade {
 			System.out.println("數值運算錯誤");
 		} catch(NumberFormatException e) {
 			System.out.println("訊息格式錯誤");
+//			e.printStackTrace();
 		}
 	}
 
