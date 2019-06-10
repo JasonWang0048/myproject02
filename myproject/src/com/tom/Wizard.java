@@ -9,7 +9,7 @@ public class Wizard extends Thread{
  THUNDER END!
  */
 	
-	public void thunder() {
+	public synchronized static void thunder() {
 //	  synchronized (this) {
 		System.out.println("THUNDER START!");
 		try {
